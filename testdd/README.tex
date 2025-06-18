@@ -1,0 +1,277 @@
+\section{📊 Strategic Applications of Regression in
+Business}\label{strategic-applications-of-regression-in-business}
+
+Welcome to the Week 10 Assignment of IIMK's Professional Certificate in
+Data Science and Artificial Intelligence for Managers! This project
+explores the strategic role of regression models in business, with a
+focus on marketing and sales applications.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{👤 Student Information}\label{student-information}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Name:} Lalit Nayyar
+\item
+  \textbf{Email:} lalitnayyar@gmail.com
+\item
+  \textbf{Course:} IIMK's Professional Certificate in Data Science and
+  Artificial Intelligence for Managers
+\item
+  \textbf{Assignment:} Week 10 -- Required Assignment 10.1
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{🎯 Learning Outcomes}\label{learning-outcomes}
+
+\begin{itemize}
+\tightlist
+\item
+  Enumerate the different types and uses of regression models
+\item
+  Differentiate between linear and non-linear regression models
+\item
+  Differentiate between classification and regression techniques
+\item
+  Describe how to decipher the outputs of regression models
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{📝 Objective}\label{objective}
+
+This assignment evaluates the strategic role of regression models in
+business environments---especially in marketing and sales. By analyzing
+different regression techniques, interpreting their outputs, and
+managing model risks (such as overfitting or multicollinearity), we
+develop practical data-driven frameworks for business decision-making.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1️⃣ Business Decisions Influenced by Regression Analysis
+Results}\label{business-decisions-influenced-by-regression-analysis-results}
+
+\href{1_Business_Decisions_Regression.ipynb}{\pandocbounded{\includegraphics[keepaspectratio]{https://img.shields.io/badge/Notebook-Open\%20Business\%20Decisions\%20Notebook-blue?logo=jupyter}}}
+
+Regression analysis provides powerful insights that influence marketing,
+finance, and strategic planning. In data-driven organizations,
+regression is a critical enabler of decision intelligence.
+
+\subsubsection{Key Business Decisions Informed by Regression
+Analysis:}\label{key-business-decisions-informed-by-regression-analysis}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Optimized Marketing Budget Allocation:} Identify how
+  individual marketing channels contribute to sales and revenue.
+  Example: A 10\% increase in Instagram ads leads to a 7\% increase in
+  sales, while print ads may have negligible or negative returns.
+\item
+  \textbf{Revenue Forecasting:} Forecast expected sales based on
+  advertising spend, product discounts, or seasonal trends. Assists
+  executives in setting targets and planning operations.
+\item
+  \textbf{Campaign Performance Analysis:} Assess how specific marketing
+  initiatives perform across segments (e.g., campaign type, demographic
+  group, region) for smarter A/B testing and refinement.
+\item
+  \textbf{Cross-functional Alignment:} Forecasted demand influences
+  inventory, staffing, procurement, and finance, connecting marketing to
+  broader operations.
+\item
+  \textbf{Scenario Planning \& Sensitivity Analysis:} Simulate
+  ``what-if'' scenarios (e.g., impact of cutting TV spend by 30\%) for
+  risk mitigation and strategic planning.
+\item
+  \textbf{Strategic Investment Decisions:} Guide investments into
+  emerging channels (e.g., influencer marketing, programmatic ads) based
+  on model outcomes.
+\end{itemize}
+
+\begin{quote}
+\textbf{Example:} A retail firm uses multiple regression to assess ad
+spend across channels. It finds Google Ads (β = 0.65, p \textless{}
+0.01) drives more incremental sales than TV (β = 0.12, p = 0.4). The
+firm reallocates 20\% of its TV budget to digital, resulting in a 6\%
+YoY sales increase.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2️⃣ Strategic Implications of Underfitting and
+Overfitting}\label{strategic-implications-of-underfitting-and-overfitting}
+
+\href{2_Underfitting_Overfitting.ipynb}{\pandocbounded{\includegraphics[keepaspectratio]{https://img.shields.io/badge/Notebook-Open\%20Underfitting\%20\%26\%20Overfitting\%20Notebook-blue?logo=jupyter}}}
+
+Model fit is crucial in machine learning and statistics. Inappropriate
+complexity leads to underfitting or overfitting, each with significant
+business consequences.
+
+\subsubsection{🔵 Underfitting: Definition \&
+Implications}\label{underfitting-definition-implications}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Definition:} Model is too simplistic to capture underlying
+  patterns (e.g., using linear regression for non-linear problems).
+\item
+  \textbf{Implications:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Missed insights and hidden drivers
+  \item
+    Low forecast accuracy
+  \item
+    Reduced business confidence in analytics
+  \end{itemize}
+\item
+  \textbf{Solutions:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Add explanatory variables
+  \item
+    Use non-linear models if needed
+  \item
+    Apply residual analysis
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{🟠 Overfitting: Definition \&
+Implications}\label{overfitting-definition-implications}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Definition:} Model is too complex, capturing noise instead of
+  signal (too many variables/interactions).
+\item
+  \textbf{Implications:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Misleading insights
+  \item
+    High variance in predictions
+  \item
+    Wasted resources
+  \end{itemize}
+\item
+  \textbf{Solutions:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cross-validation
+  \item
+    Regularization (Lasso, Ridge)
+  \item
+    Feature pruning
+  \end{itemize}
+\end{itemize}
+
+\begin{quote}
+\textbf{Business Analogy:} A bank forecasts loan defaults using 100+
+features. Overfitting may wrongly indicate irrelevant features are
+predictive, while underfitting may miss critical predictors. Both can
+have large financial consequences.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3️⃣ Handling Multicollinearity to Ensure Actionable
+Insights}\label{handling-multicollinearity-to-ensure-actionable-insights}
+
+\href{3_Multicollinearity_Handling.ipynb}{\pandocbounded{\includegraphics[keepaspectratio]{https://img.shields.io/badge/Notebook-Open\%20Multicollinearity\%20Notebook-blue?logo=jupyter}}}
+
+Multicollinearity occurs when two or more independent variables are
+highly correlated. While it may not always reduce model accuracy, it
+destabilizes coefficient interpretation and can mislead business
+decisions.
+
+\subsubsection{🔍 What is
+Multicollinearity?}\label{what-is-multicollinearity}
+
+\begin{itemize}
+\tightlist
+\item
+  Highly correlated predictors cause unstable, hard-to-interpret
+  coefficients.
+\end{itemize}
+
+\subsubsection{🚩 Strategic Implications}\label{strategic-implications}
+
+\begin{itemize}
+\tightlist
+\item
+  Lack of interpretability
+\item
+  Incorrect attribution of results
+\item
+  Increased risk of overfitting
+\end{itemize}
+
+\subsubsection{🛠️ Solutions for
+Multicollinearity}\label{solutions-for-multicollinearity}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Variance Inflation Factor (VIF):} Remove variables with VIF
+  \textgreater{} 10.
+\item
+  \textbf{Feature Engineering:} Merge correlated variables into
+  composite indicators.
+\item
+  \textbf{Dimensionality Reduction (PCA):} Create uncorrelated
+  components.
+\item
+  \textbf{Domain-Driven Feature Elimination:} Choose predictors with
+  clear business impact.
+\item
+  \textbf{Model Substitution:} Use models like Ridge Regression that
+  handle multicollinearity.
+\end{enumerate}
+
+\begin{quote}
+\textbf{Illustration:} A telecom firm predicts churn and finds high
+correlation between ``total call minutes'' and ``international
+minutes.'' Removing one improves model stability and enables clearer
+segmentation strategies.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{🏁 Conclusion}\label{conclusion}
+
+Regression analysis, when strategically implemented, is foundational for
+intelligent decision-making in modern enterprises. It empowers
+leadership to simulate outcomes, measure channel performance, allocate
+budgets efficiently, and foster a culture of data-driven
+experimentation.
+
+For maximum value, regression models must be well-fitted, interpretable,
+and generalizable. Business leaders must guard against underfitting,
+overfitting, and multicollinearity to ensure reliable insights.
+
+\begin{quote}
+As managers in the AI-driven economy, understanding and acting on
+regression models enables us to translate complex data into concrete
+value for customers, employees, and shareholders alike.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{📬 Contact}\label{contact}
+
+For questions, reach out to \textbf{lalitnayyar@gmail.com}

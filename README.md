@@ -111,3 +111,56 @@ For maximum value, regression models must be well-fitted, interpretable, and gen
 
 ## 📬 Contact
 For questions, reach out to **lalitnayyar@gmail.com**
+
+---
+
+## 📁 Directory Structure
+
+```
+moduleassignment10/
+├── 1_Business_Decisions_Regression.ipynb      # Notebook: Business Decisions Regression
+├── 1_Business_Decisions_Regression.html       # HTML export of the notebook
+├── 1_Business_Decisions_Regression.md         # Markdown export of the notebook
+├── 1_Business_Decisions_Regression_files/     # HTML assets for the notebook
+├── 2_Underfitting_Overfitting.ipynb           # Notebook: Underfitting & Overfitting
+├── 2_Underfitting_Overfitting.html            # HTML export of the notebook
+├── 2_Underfitting_Overfitting.md              # Markdown export of the notebook
+├── 2_Underfitting_Overfitting_files/          # HTML assets for the notebook
+├── 3_Multicollinearity_Handling.ipynb         # Notebook: Multicollinearity Handling
+├── 3_Multicollinearity_Handling.html          # HTML export of the notebook
+├── 3_Multicollinearity_Handling.md            # Markdown export of the notebook
+├── 3_Multicollinearity_Handling_files/        # HTML assets for the notebook
+├── LalitNayyar_Module10.docx                  # Assignment report (Word doc)
+├── README.md                                  # Project documentation
+├── testdd/                                    # Subdirectory with additional resources (see below)
+├── .git/                                      # Git version control directory
+├── .venv/                                     # Python virtual environment
+├── ~$dule10_submission.docx                   # Temporary file
+
+# testdd/ subdirectory
+├── 1_Business_Decisions_Regression.html       # HTML export (duplicate/copy)
+├── 2_Underfitting_Overfitting.html            # HTML export (duplicate/copy)
+├── 3_Multicollinearity_Handling.html          # HTML export (duplicate/copy)
+├── README.pdf                                 # PDF version of README
+├── README.tex                                 # LaTeX source for README
+├── assignment                                # Assignment file
+├── assignment_submission.aux                  # LaTeX auxiliary file
+├── assignment_submission.log                  # LaTeX log file
+├── assignment_submission.out                  # LaTeX output file
+├── assignment_submission.pdf                  # Assignment submission (PDF)
+├── assignment_submission.tex                  # LaTeX source for submission
+├── assignment_submission.toc                  # Table of contents for LaTeX
+├── module10_submission.docx                   # Assignment (Word doc, duplicate/copy)
+├── professional_template.tex                  # LaTeX template
+├── 📊 Strategic Applications of Regression in Business.pdf # PDF export of main report
+```
+
+Descriptions:
+- Notebooks (.ipynb): Interactive Python notebooks for each assignment part.
+- HTML/MD: Exported versions for easy sharing and viewing.
+- .docx/.pdf: Written reports and submissions.
+- .tex/.aux/.log/.out/.toc: LaTeX source and build artifacts.
+- testdd/: Contains exports, templates, and submission files.
+- .git/: Version control (hidden).
+- .venv/: Python virtual environment (hidden).
+- Temporary files: Created by Office or LaTeX during editing.
